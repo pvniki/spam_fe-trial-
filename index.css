@@ -1,0 +1,264 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: 90%;
+    height: 120px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+} */
+ /* General reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background Styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Professional font */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    background-image: url('https://example.com/spam-detection-image.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay for content to contrast with the background */
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Container for content */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Result Text Styling */
+#result {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Success and Failure Result Styles */
+#result.success {
+    color: #28a745;
+}
+
+#result.error {
+    color: #dc3545;
+} */
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background Styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Professional font */
+    height: 100vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    
+    /* Set background image */
+    background-image: url('https://cdn.analyticsvidhya.com/wp-content/uploads/2021/06/3801299240.jpg'); /* Replace with your actual image URL */
+    background-size: cover; /* Make sure the image covers the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+}
+
+/* Overlay for content to contrast with the background */
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Container for content */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Result Text Styling */
+#result {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Success and Failure Result Styles */
+#result.success {
+    color: #28a745;
+}
+
+#result.error {
+    color: #dc3545;
+}
+
